@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  sqlserver_2019:
+    container_name: sqlserver_2019_win
+    image: microsoft/mssql-server-windows-developer
+    hostname: sqlserver_2019_win
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - sa_password=1Qazxsw2!
+    volumes:
+      - C:/SQLBackups:C:/SQLBackups
+volumes:
+  sqlserver_2019_win_vol:

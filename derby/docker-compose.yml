@@ -1,0 +1,9 @@
+version: '3'
+services:
+  derby:
+    container_name: derby
+    image: az82/docker-derby
+    ports:
+      - "1527:1527"
+    volumes:
+      - /dbs:/dbs

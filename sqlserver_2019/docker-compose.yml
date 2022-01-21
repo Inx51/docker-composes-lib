@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  sqlserver_2019:
+    container_name: sqlserver_2019
+    image: mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
+    hostname: sqlserver_2019
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1Qazxsw2!
+    volumes:
+      - type: volume
+        source: sqlserver_2019_vol
+        target: /var/opt/mssql
+      - C:/SQLBackups:/var/opt/mssql/backups
+volumes:
+  sqlserver_2019_vol:
