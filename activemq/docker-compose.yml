@@ -1,0 +1,21 @@
+version: '3.7'
+
+# starts 4 docker containers running minio server instances.
+# using nginx reverse proxy, load balancing, you can access
+# it through port 9000.
+services:
+  activemq:
+    image: rmohr/activemq:5.15.9
+    ports:
+      - 5672:5672 #AMQP
+      #- 61616:61616 #JMS
+      #- 61613:61613 #STOMP
+      #- 1883:1883 #MQTT
+      #- 61614:61614 #WS
+      - 8161:8161
+    volumes:
+      - ./conf:/opt/activemq/conf
+      - ./data:/opt/activemq/data
+
+  #Default login
+  #admin:admin

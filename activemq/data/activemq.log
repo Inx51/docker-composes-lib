@@ -1,0 +1,66 @@
+2022-01-30 11:37:54,385 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a968a59: startup date [Sun Jan 30 11:37:54 UTC 2022]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2022-01-30 11:37:55,333 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/opt/activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2022-01-30 11:37:55,600 | INFO  | PListStore:[/opt/activemq/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2022-01-30 11:37:55,806 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:2e3db814cba4-36811-1643542675617-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2022-01-30 11:37:55,828 | INFO  | Listening for connections at: tcp://2e3db814cba4:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-01-30 11:37:55,830 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2022-01-30 11:37:55,834 | INFO  | Listening for connections at: amqp://2e3db814cba4:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-01-30 11:37:55,836 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2022-01-30 11:37:55,842 | INFO  | Listening for connections at: stomp://2e3db814cba4:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-01-30 11:37:55,844 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2022-01-30 11:37:55,849 | INFO  | Listening for connections at: mqtt://2e3db814cba4:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-01-30 11:37:55,851 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2022-01-30 11:37:55,858 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-01-30 11:37:55,904 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-01-30 11:37:55,980 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@7aaca91a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2022-01-30 11:37:56,027 | INFO  | Listening for connections at ws://2e3db814cba4:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2022-01-30 11:37:56,028 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2022-01-30 11:37:56,030 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:2e3db814cba4-36811-1643542675617-0:1) started | org.apache.activemq.broker.BrokerService | main
+2022-01-30 11:37:56,031 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2022-01-30 11:37:56,612 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2022-01-30 11:37:56,720 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-01-30 11:37:56,720 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-01-30 11:37:56,766 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2022-01-30 11:37:56,917 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2022-01-30 11:37:56,961 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2022-01-30 12:04:21,330 | WARN  | Transport Connection to: tcp://172.20.0.1:60164 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60164@5672
+2022-01-30 12:04:33,370 | WARN  | Transport Connection to: tcp://172.20.0.1:60166 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60166@5672
+2022-01-30 12:04:42,118 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1195942137-40
+2022-01-30 12:14:35,946 | WARN  | Transport Connection to: tcp://172.20.0.1:60178 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60178@5672
+2022-01-30 12:14:40,558 | WARN  | Transport Connection to: tcp://172.20.0.1:60180 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60180@5672
+2022-01-30 12:14:46,511 | WARN  | Transport Connection to: tcp://172.20.0.1:60182 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60182@5672
+2022-01-30 12:14:55,844 | WARN  | Transport Connection to: tcp://172.20.0.1:60184 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60184@5672
+2022-01-30 12:17:09,636 | WARN  | Transport Connection to: tcp://172.20.0.1:60186 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60186@5672
+2022-01-30 12:17:18,369 | WARN  | Transport Connection to: tcp://172.20.0.1:60176 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60176@5672
+2022-01-30 12:17:24,332 | WARN  | Transport Connection to: tcp://172.20.0.1:60188 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60188@5672
+2022-01-30 12:17:34,861 | WARN  | Transport Connection to: tcp://172.20.0.1:60190 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60190@5672
+2022-01-30 12:17:36,792 | WARN  | Transport Connection to: tcp://172.20.0.1:60192 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60192@5672
+2022-01-30 12:17:48,598 | WARN  | Transport Connection to: tcp://172.20.0.1:60194 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60194@5672
+2022-01-30 12:17:51,633 | WARN  | Transport Connection to: tcp://172.20.0.1:60196 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60196@5672
+2022-01-30 12:18:05,839 | WARN  | Transport Connection to: tcp://172.20.0.1:60206 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60206@5672
+2022-01-30 12:18:09,615 | WARN  | Transport Connection to: tcp://172.20.0.1:60208 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60208@5672
+2022-01-30 12:18:47,761 | WARN  | Transport Connection to: tcp://172.20.0.1:60210 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60210@5672
+2022-01-30 12:19:02,277 | WARN  | Transport Connection to: tcp://172.20.0.1:60212 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60212@5672
+2022-01-30 12:19:56,834 | WARN  | Transport Connection to: tcp://172.20.0.1:60214 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60214@5672
+2022-01-30 12:19:58,021 | WARN  | Transport Connection to: tcp://172.20.0.1:60216 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60216@5672
+2022-01-30 12:20:02,678 | WARN  | Transport Connection to: tcp://172.20.0.1:60218 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60218@5672
+2022-01-30 12:20:08,738 | WARN  | Transport Connection to: tcp://172.20.0.1:60220 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60220@5672
+2022-01-30 12:20:20,110 | WARN  | Transport Connection to: tcp://172.20.0.1:60222 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60222@5672
+2022-01-30 12:20:50,808 | WARN  | Transport Connection to: tcp://172.20.0.1:60224 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60224@5672
+2022-01-30 12:21:22,848 | WARN  | Transport Connection to: tcp://172.20.0.1:60226 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60226@5672
+2022-01-30 12:21:30,811 | WARN  | Transport Connection to: tcp://172.20.0.1:60228 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60228@5672
+2022-01-30 12:21:56,736 | WARN  | Transport Connection to: tcp://172.20.0.1:60230 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60230@5672
+2022-01-30 12:22:06,818 | WARN  | Transport Connection to: tcp://172.20.0.1:60234 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60234@5672
+2022-01-30 12:22:08,719 | WARN  | Transport Connection to: tcp://172.20.0.1:60236 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60236@5672
+2022-01-30 12:22:10,319 | WARN  | Transport Connection to: tcp://172.20.0.1:60238 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60238@5672
+2022-01-30 12:22:12,290 | WARN  | Transport Connection to: tcp://172.20.0.1:60240 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60240@5672
+2022-01-30 12:22:18,961 | WARN  | Transport Connection to: tcp://172.20.0.1:60242 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60242@5672
+2022-01-30 12:22:24,972 | WARN  | Transport Connection to: tcp://172.20.0.1:60244 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60244@5672
+2022-01-30 12:22:27,010 | WARN  | Transport Connection to: tcp://172.20.0.1:60246 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60246@5672
+2022-01-30 12:22:29,631 | WARN  | Transport Connection to: tcp://172.20.0.1:60248 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60248@5672
+2022-01-30 12:22:31,630 | WARN  | Transport Connection to: tcp://172.20.0.1:60250 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60250@5672
+2022-01-30 12:23:11,886 | WARN  | Transport Connection to: tcp://172.20.0.1:60252 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60252@5672
+2022-01-30 12:23:18,793 | WARN  | Transport Connection to: tcp://172.20.0.1:60254 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60254@5672
+2022-01-30 12:24:21,573 | WARN  | Transport Connection to: tcp://172.20.0.1:60256 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60256@5672
+2022-01-30 12:24:46,133 | WARN  | Transport Connection to: tcp://172.20.0.1:60258 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60258@5672
+2022-01-30 12:27:07,463 | WARN  | Transport Connection to: tcp://172.20.0.1:60232 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///172.20.0.1:60232@5672
